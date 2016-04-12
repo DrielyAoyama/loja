@@ -1,0 +1,86 @@
+
+.body-style {background-color: #140700;}
+
+/* CSS TOPO */
+.topo{padding: 7px;}
+
+.barra-topo {text-align: right; color: #fff;}
+
+.barra-topo-texto {text-align: left;}
+
+.barra-topo a li{color: #fff; display: inline; margin-left: 30px; }
+
+.barra-topo a li:hover{ color: #C39F7D !important;}
+
+.barra-topo a{text-decoration: none !important;}
+
+.logo-topo{margin: 5px 0px 5px 0px; }
+
+.barra-paginas a li{color: #fff; display: inline;}
+
+.barra-paginas a li:hover{color:#C39F7D;}
+
+.barra-paginas ul a{text-decoration: none !important; margin: 15px;}
+
+.barra-paginas-div {font-size: 18px; padding-top: 70px;}
+
+.botao-compra{font-size: 18px; color: #fff;}
+
+.div-botao{padding-top: 60px;}
+
+.div-botao a{text-decoration: none !important;}
+
+.border-topo{border-bottom: solid #C39F7D; border-width: 1px; padding-bottom: 25px;}
+
+
+/* FIM CSS TOPO */
+
+/* CSS BANNER */
+
+.borda-desc{border-width: 1px; border-style:solid; margin-top:25px;}
+
+/* FIM CSS BANNER */
+
+/* CSS PRODUTO HOME */
+
+.prod-home{margin-top: 45px; border-top: solid #C39F7D; border-width: 1px;}
+
+.prod-tam{padding: 40px; margin-top: 25px; margin-bottom: 25px; border: solid #C39F7D; border-width: 2px;}
+
+.prod-tam a{text-decoration: none !important; opacity: 0.8;}
+
+.prod-tam:hover{opacity: 0.8 !important;}
+
+.foto-prod{text-align: center; max-width: 170px; width: 100%;}
+
+.por-prod{font-size: 16px; color: #4D3B2D;}
+
+.preco-prod{font-size: 25px; color: #4D3B2D; font-weight: 600;}
+
+.juros-prod{color: #A9AAAC; font-size: 13px; }
+
+.nome-prod{color:#fff;}
+
+/* FIM CSS PRODUTO HOME */
+
+/* CSS BARRA CONTATOS */
+
+.barra-contatos{border-top: solid #C39F7D; border-width: 1px; }
+
+.tit-cont{color: #C39F7D; font-size: 16px; margin-bottom: 15px;}
+
+.row-cont{padding-bottom: 25px; padding-top: 25px;}
+
+.tit-link a{color: #fff !important; text-decoration: none !important;}
+
+.tit-link a:hover{color: #C39F7D !important;}
+
+.tit-rede a{color: #fff; font-size: 45px;}
+
+.tit-rede a:hover{color: #C39F7D;}
+
+.tooltip.bottom .tooltip-inner {background-color:#C39F7D;}
+
+.tooltip .tooltip-arrow {border-bottom: 5px solid #C39F7D !important;}
+
+/* FIM CSS BARRA CONTATOS */

@@ -12,9 +12,7 @@ class LojaController extends Controller
 {
     public function getIndex()
     {
-    	$qtde_vendida = Produto::where('liberado','=','S')
-    		->orderby('qtde_vendida')->take(30)
-    			->get();
-    	return view('loja.index',compact('qtde_vendida'));
+    	$destaques = Produto::where('destaque','=','S')->get();
+    	return view('loja.index',compact('destaques'));
     }
 }
