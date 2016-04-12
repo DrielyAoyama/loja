@@ -1,0 +1,229 @@
+.centro
+{
+	text-align:center;
+}
+
+.sombra_estatico
+{
+	webkit-box-shadow: 10px 14px 15px -10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 14px 15px -10px rgba(0,0,0,0.75);
+	box-shadow: 10px 14px 15px -10px rgba(0,0,0,0.75);
+}
+
+
+.sombra
+{
+	webkit-box-shadow: 10px 14px 15px -10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 14px 15px -10px rgba(0,0,0,0.75);
+	box-shadow: 10px 14px 15px -10px rgba(0,0,0,0.75);
+}
+
+.sombra:hover
+{
+	-webkit-box-shadow: 10px 14px 15px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 14px 15px -4px rgba(0,0,0,0.75);
+	box-shadow: 10px 14px 15px -6px rgba(0,0,0,0.75);
+	transition-duration: 0.2s;
+}
+
+.desativado 
+{
+    pointer-events: none;
+    cursor: default;
+}
+
+.BtnLargo
+{
+	width: 250px;
+	height: 500px;
+}
+
+.cadeadofechado
+{
+	background-image: url("../imagens/cadeado_fechado.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 35px;
+	border-radius: 100%;
+}
+
+
+.caixa
+{
+	background-color: #c7d7e0;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 15px;
+	padding-bottom: 30px;
+	border-radius: 10px;
+}
+textarea 
+{
+    resize: none;
+}
+.btn-icon-toggle 
+{
+    padding: 0;
+    width: 36px;
+}
+.btn-icon-toggle 
+{
+    border-radius: 999px !important;
+}
+.card 
+{
+    position: relative;
+    margin-bottom: 24px;
+    background-color: #ffffff;
+    color: #313534;
+    border-radius: 2px;
+    border: 1px solid #D2D6DE;
+
+}
+.card
+{
+  background-color: #ffffff;
+  height: 215px;
+  overflow-x: auto;
+  overflow-y: auto
+}
+
+.bloqueado
+{
+  background-color: #EEEEEE;
+}
+
+
+
+
+@keyframes hover-color {
+  from {
+    border-color: #c0c0c0; }
+  to {
+    border-color: #3e97eb; } }
+
+.magic-radio,
+.magic-checkbox {
+  position: absolute;
+  display: none; }
+
+.magic-radio[disabled],
+.magic-checkbox[disabled] {
+  cursor: not-allowed; }
+
+.magic-radio + label,
+.magic-checkbox + label {
+  position: relative;
+  display: block;
+  padding-left: 30px;
+  cursor: pointer;
+  vertical-align: middle; }
+  .magic-radio + label:hover:before,
+  .magic-checkbox + label:hover:before {
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+    animation-name: hover-color; }
+  .magic-radio + label:before,
+  .magic-checkbox + label:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: '';
+    border: 1px solid #c0c0c0; }
+  .magic-radio + label:after,
+  .magic-checkbox + label:after {
+    position: absolute;
+    display: none;
+    content: ''; }
+
+.magic-radio[disabled] + label,
+.magic-checkbox[disabled] + label {
+  cursor: not-allowed;
+ }
+  .magic-radio[disabled] + label:hover, .magic-radio[disabled] + label:before, .magic-radio[disabled] + label:after,
+  .magic-checkbox[disabled] + label:hover,
+  .magic-checkbox[disabled] + label:before,
+  .magic-checkbox[disabled] + label:after {
+    cursor: not-allowed; }
+
+  .magic-radio[disabled] + label:before,
+  .magic-checkbox[disabled] + label:before {
+    }
+
+.magic-radio:checked + label:before,
+.magic-checkbox:checked + label:before {
+  animation-name: none; }
+
+.magic-radio:checked + label:after,
+.magic-checkbox:checked + label:after {
+  display: block; }
+
+.magic-radio + label:before {
+  border-radius: 50%; }
+
+.magic-radio + label:after {
+  top: 6px;
+  left: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #3e97eb; }
+
+.magic-radio:checked + label:before {
+  border: 1px solid #3e97eb; }
+
+
+.magic-checkbox + label:before {
+  border-radius: 3px; }
+
+.magic-checkbox + label:after {
+  top: 2px;
+  left: 7px;
+  box-sizing: border-box;
+  width: 6px;
+  height: 12px;
+  transform: rotate(45deg);
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fff;
+  border-top: 0;
+  border-left: 0; 
+ 
+}
+
+.magic-checkbox:checked + label:before {
+  border: #3e97eb;
+  background: #3e97eb; }
+
+
+.vermelho
+{
+  color: red;
+}
+.preto
+{
+  color: black;
+}
+
+.altura_label
+{
+    margin-top: 25px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.img_table
+{
+  width: 100px;
+}
+
